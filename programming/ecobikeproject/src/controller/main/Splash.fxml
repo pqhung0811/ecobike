@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="600.0" style="-fx-background-color: #00C9A7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.main.SplashController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../view/images/icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="207.0" layoutY="278.0" prefHeight="67.0" prefWidth="192.0" style="-fx-text-fill: #FFFFFFFF;" text="Ecobike" textAlignment="CENTER">
+         <font>
+            <Font name=".VnArial Bold" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

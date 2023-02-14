@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.history.RentHistoryController">
+   <children>
+      <HBox layoutX="142.0" layoutY="18.0" prefHeight="39.0" prefWidth="596.0" style="-fx-spacing: 50;">
+         <children>
+            <Label fx:id="bikeName" prefHeight="35.0" prefWidth="92.0" text="GT">
+               <font>
+                  <Font name="Segoe UI Black" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="time" prefHeight="35.0" prefWidth="245.0" text="2021/12/12 12:00:00">
+               <font>
+                  <Font name="Segoe UI Black" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="money" prefHeight="35.0" prefWidth="150.0" text="400,000 d">
+               <font>
+                  <Font name="Segoe UI Black" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ImageView fx:id="img" fitHeight="58.0" fitWidth="68.0" layoutX="21.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>
